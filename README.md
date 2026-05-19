@@ -15,3 +15,10 @@ API REST complète pour la gestion de comptes utilisateurs.
 - Tests: nosetests, coverage
 - Linting: flake8, pylint
 - Déploiement: Docker, Kubernetes, Tekton
+
+## Installation
+```bash
+git clone https://github.com/ju-info-19/microservice-account.git
+cd microservice-account
+pip install -r requirements.txt
+python manage.py runserver
